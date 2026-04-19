@@ -1,0 +1,27 @@
+{
+  "name": "api-registro-login",
+  "version": "1.0.0",
+  "description": "API REST para registro y autenticación de usuarios - Evidencia GA7-220501096-AA5-EV01",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "autenticacion",
+    "registro",
+    "login"
+  ],
+  "author": "Juan Pablo Giraldo Echavarria",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
